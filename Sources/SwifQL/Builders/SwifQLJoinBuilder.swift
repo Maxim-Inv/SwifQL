@@ -8,7 +8,7 @@
 import Foundation
 
 public struct JoinMode {
-    let parts: [SwifQLPartOperator]
+    public let parts: [SwifQLPartOperator]
     
     public init (_ parts: SwifQLPartOperator...) {
         self.parts = parts
